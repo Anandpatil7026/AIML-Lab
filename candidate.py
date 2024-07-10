@@ -4,7 +4,7 @@ import pandas as pd
 df = pd.read_csv('enjoysport.csv')
 concepts = df.values[:,0:-1]
 target = df.values[:,-1]
-
+df.haed()
 
 def learn(concepts, target): 
     specific_h = concepts[0].copy()
